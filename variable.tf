@@ -15,3 +15,12 @@ variable "ec-name" {
   description = "Instance Name"
   default     = "GitHub Action Terraform"
 }
+
+
+variable "default_tags" {
+  default = {
+    ManagedBy = "Terraform managed"
+    Terraform = "true"
+  }
+  type        = map(string)
+}
