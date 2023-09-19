@@ -1,4 +1,4 @@
-name: "Terraform Infrastructure CI with GitHub Actions"
+name: "Terraform Infra CI with GitHub Actions"
 
 on: [push]
 
