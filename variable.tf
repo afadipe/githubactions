@@ -22,5 +22,5 @@ variable "default_tags" {
     ManagedBy = "Terraform managed"
     Terraform = "true"
   }
-  type        = map(string)
+  type = map(string)
 }
