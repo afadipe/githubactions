@@ -1,6 +1,6 @@
 name: "Terraform Infra CI with GitHub Actions"
 
-on: [push]
+on: [push, pull_request, workflow_run]
 
 env:
   # verbosity setting for Terraform logs
